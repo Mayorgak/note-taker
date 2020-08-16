@@ -1,0 +1,30 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod":"node server.js",
+    "start:dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayorgak/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayorgak/note-taker/issues"
+  },
+  "homepage": "https://github.com/Mayorgak/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ids": "^1.0.0",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

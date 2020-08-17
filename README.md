@@ -10,7 +10,7 @@
 
 
 ## Link 
-https://note-taker001.herokuapp.com/notes
+https://github.com/Mayorgak/note-taker
 
 
 ## User Story 
